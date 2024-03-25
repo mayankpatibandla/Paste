@@ -6,7 +6,7 @@ F1::
 Loop, parse, clipboard
 {
   line := StrReplace(A_Loopfield, "`r")
-	SendRaw %line%
+  SendRaw %line%
 }
 return
 
